@@ -1,6 +1,9 @@
 # Homework 2 (Style-Transfer) 
 ## Training MUNIT
+Trained on the summer2winter_yosemite256 dataset. Training time is about 48hrs(200k iteration). Following are the loss training curves:
 
+![](loss_gen_total.png)
+![](loss_dis_total.png)
 ## Inference one image in multiple style
 
 ## Compare with other method
