@@ -8,7 +8,8 @@
 ### Intro
 With CNN,it recontruct the content image and the style image seperately
 ### Approach
-![](https://imgur.com/SGk7Hwg)
+![](https://i.imgur.com/SGk7Hwg.png)
+
 利用pre-trained VGG19 model提取圖片不同layer的特徵，作為圖像和風格的特徵。
 
 •	Content:在network中，較低層級保留較多的原始圖像，而較高層級中雖然沒有細節的pixel但保留了high level的內容feature，因此可以利用高層的特徵來對圖像做recontruct。
