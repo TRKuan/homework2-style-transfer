@@ -35,4 +35,4 @@ winter to summer:
 -  MUNIT needs lots of training resources to have a good perforomence. As we can see the images are still not better then CycleGAN after training for 48 hours. However, it still has it's potential since the sample images in the paper look pertty decent.
 
 ### Conclution
-In conclution, MUNIT preserves the content better with more pixel level details. on the other hand nueral style is better at capturing heigher level content and produces a more artistic image.
+In conclution, MUNIT preserves the content better with more pixel level details. On the other hand nueral style is better at capturing heigher level content and produces a more artistic image.
