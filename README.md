@@ -23,4 +23,7 @@ We can see that although it can catch the color of the style image, it can not d
 ##### Compare MUNIT with nueral style
 -  From the pictures below we can see that the MUNIT preserve the details of content better than the neural-style ones,the reason of that is the higher level of CNN may lost too much pixels only preserves the objects and the arrangement of them,so after the reconstruction the output images would lost a lot of the details
 
-![](summer2winter_ns.png)
+summer to winter:  
+![](summer2winter_ns.png)  
+winter to summer:  
+![](winter2summer_ns.png)  
