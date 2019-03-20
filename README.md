@@ -7,8 +7,10 @@ Trained on the summer2winter_yosemite256 dataset. Training time is about 48hrs(2
 ## Inference one image in multiple style
 Here we test the training results using our own photos.
 
-summer to winter:
-![](summer2winter.png)
+summer to winter:  
+![](summer2winter.png)  
+winter to summer:  
+![](winter2summer.png)  
 
 ## Compare with other method
 ### Neural-style
