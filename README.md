@@ -20,10 +20,13 @@ We can see that although it can catch the color of the style image, it can not d
 - Content: 
 - Style: 
 
-##### Compare MUNIT with nueral style
--  From the pictures below we can see that the MUNIT preserve the details of content better than the neural-style ones,the reason of that is the higher level of CNN may lost too much pixels only preserves the objects and the arrangement of them,so after the reconstruction the output images would lost a lot of the details
-
+#### Results
 summer to winter:  
 ![](summer2winter_ns.png)  
 winter to summer:  
 ![](winter2summer_ns.png)  
+
+
+##### Compare MUNIT with nueral style
+-  From the images above, we can see that the MUNIT ones preserves the details of content better than the neural-style ones. The reason is that while higher level of CNN layers can capture the content of the image, it may lost per pixel detail of the original image. So after the reconstruction, the output images only captures the heigh level idea of the content and lost a lot of details.
+-  Although we are comparing the summer to winter or vice versa applications of the 2 approaches, it is worth noticing that the origial goal of nueral style is to generate artistic looking works instead of depicting photorealistic images. Images generated via nueral style do look pretty artstic and season changing is more like a side effact apart from the main goal.
