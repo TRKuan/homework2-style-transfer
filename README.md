@@ -13,7 +13,7 @@ winter to summer:
 ![](winter2summer.png)  
 We can see that although it can catch the color of the style image, it can not distinguish different object very well. Especially the winter to summer ones. Instead of getting rid of the snow, buildings are truned into green. Summer to winter ones are a bit better, but still not much snow is generated. This may due to the fact that we did not train the models long enough and it may still be under fitting. More training resources and time may lead to better results.
 ## Compare with other method
-In this section, we compare MUNIT with Neural-style on the applications of summer to winter and winter to summer.
+In this section, we compare MUNIT with [Neural-style](https://github.com/anishathalye/neural-style) on the applications of summer to winter and winter to summer.
 
 ### Neural-style
 #### Approach
