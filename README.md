@@ -19,8 +19,8 @@ In this section, we compare MUNIT with Neural-style on the applications of summe
 #### Approach
 ![](https://i.imgur.com/SGk7Hwg.png)
 
-- Content: 
-- Style: 
+- Content: In the lower layer of the network perserve alomost everything of the pictures,however in higher layers it discard most of the details but only reserve the higher information of the picture like the color and the arrangement
+- Style: Compute the correlation between different features in a new feature space
 
 #### Results
 summer to winter:  
