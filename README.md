@@ -19,7 +19,7 @@ In this section, we compare MUNIT with Neural-style on the applications of summe
 #### Approach
 ![](https://i.imgur.com/SGk7Hwg.png)
 
-- Content: In the lower layer of the network perserve alomost everything of the pictures,however in higher layers it discard most of the details but only reserve the higher information of the picture like the color and the arrangement
+- Content: In the lower layer of the network perserve alomost everything of the pictures, however in higher layers it discard most of the details but only reserve the higher information of the picture like the color and the arrangement
 - Style: Compute the correlation between different features in a new feature space
 
 #### Results
@@ -33,6 +33,6 @@ winter to summer:
 -  Although we are comparing the applications of summer to winter or vice versa, it is worth noticing that the origial goal of nueral style is to generate artistic looking works instead of depicting photorealistic images. Images generated via nueral style do look pretty artstic and season changing is more like a side effact apart from the main goal.
 -  On the other hand, The underfitting MUNIT here are not doing well. Dispite the fact that the per pixel context detail preserved very well due to the reconstruction loss, the style is not been captured well. The photorealistic nature of the image makes it looks worse. 
 -  MUNIT needs lots of training resources to have a good perforomence. As we can see the images are still not better then CycleGAN after training for 48 hours. However, it still has its potential since the sample images in the paper look pertty decent.
-
+- The inference time of MUNIT is less than 1 sec and the neural-style one is 15 sec. The reason of that is MUNIT does not train the model everytime we run a new image but neural-style do.Therefore, we think neural-style actually needs more training resources than MUNIT.
 ### Conclution
 In conclution, MUNIT preserves the content better with more pixel level details. On the other hand nueral style is better at capturing higher level content and produces a more artistic image.
